@@ -12,7 +12,6 @@ import './style/dark.scss'
 import { useContext} from "react";
 import { DarkModeContext } from "./components/context/darkModeContext";
 
-
 function App() {
   
   const {darkmode} = useContext(DarkModeContext);
