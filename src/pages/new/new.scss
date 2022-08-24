@@ -1,0 +1,86 @@
+.new{
+    width: 100%;
+    display: flex;
+
+    .new__container{
+        flex: 6;
+        .top{
+            align-items: center;
+            gap: .5rem;
+        }
+        .top, .bottom{
+        
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+
+            h1{
+                color: lightgray;
+                font-size: 20px;
+            }
+            .top__icon{
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                padding: 10px;
+                color: #2E86C1;
+                font-size: 1.5rem;
+            }
+            .left{
+                flex: 1;
+                text-align: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+            .right{
+                flex: 2;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+
+                    .form__input{
+                        width: 40%;
+
+                        label{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            .icon{
+                                cursor: pointer;
+                                font-size: 2rem;
+                                border-radius: 5px;
+                            }
+                        }
+                        input{
+                            width: 100%;
+                            padding: 5px;
+                            border: none;
+                            border-bottom: 0.5px solid rgb(192, 189, 189);
+                            outline: none;
+                        }
+                    }
+                    button{
+                        width: 150px;
+                        padding: 10px;
+                        border: 0.5px solid #154360;
+                        background-color: #e8edf0;
+                        color: gray;
+                        font-weight: bold;
+                        cursor: pointer;
+                        margin-top: 10px;
+                        border-radius: 5px;
+
+                    }
+                }
+            }
+
+        }
+    }
+}

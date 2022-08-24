@@ -1,0 +1,36 @@
+.user__form{
+    width: 100%;
+    
+    .title{
+        margin: 30px;
+    }
+    .formBody{
+        margin: 30pX;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .form{
+            align-items: center;
+            justify-content: center;
+        }
+
+        input{
+            width: 50%;
+            height: 40px;
+            margin: 10px;
+            font-size: 1rem;
+            outline: none !important;
+            align-items: center;
+            justify-content: center;
+        }
+        textarea{
+            width: 50%;
+            height: 40px;
+            margin: 10px;
+            font-size: 1rem;
+            outline: none !important;
+        }
+
+    }
+}
